@@ -1,4 +1,4 @@
-# generator-react-native-web [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-react-native-web
 > React Native for iOS, Android and WEB ! 
 
 ## Installation
