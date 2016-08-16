@@ -95,6 +95,9 @@ module.exports = yeoman.Base.extend({
 
     // copy template file to destination path
     this.fs.copy(this.sourceRoot(), this.destinationRoot());
+    this.fs.copyTpl(`${this.sourceRoot()}/.babelrc`, `${this.destinationPath()}/.babelrc`,{
+      "APP_NAME": this.props.name
+    });    
     this.fs.copyTpl(`${this.sourceRoot()}/web/src/index.html`, `${this.destinationPath()}/web/src/index.html`,{
       "APP_NAME": this.props.name
     });
